@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Object#exists"
   gem.description   = "Objecd#exists: Like ActiveSupport's presence, but for Object#null?"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/exists"
   gem.license       = "MIT"
 
@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = "~> 2.0"
+  gem.required_ruby_version = ">= 2.0"
   gem.add_dependency "null_question", "~> 1.0"
 end
